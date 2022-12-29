@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>Vulnerability Tracker</title>
+    </head>
+    <body>
+        <div class="bg-image">
+            <div class="page-container">
+            <div class="header">
+                <!-- header content goes here -->
+            </div>
+            <div class="container">
+                <div class="grey-container">
+                    <h1>Bugs Found:</h1>
+                    <h2 id="count-el">0</h2>
+                    <button id="increment-btn" onclick="increment()">INCREMENT</button>
+                    <button id="save-btn" onclick="save()">SAVE</button>
+                    <p id="save-el">Previous entries: </p>
+                </div>
+            </div>
+            <!-- <div>
+                <div id="bug-box">Collect all your bugs</div>
+            </div> -->
+            <div>
+                <span class="info-box">
+                    Every time you find a Vulnerability you can "SAVE" it in the browser. 
+                    To increment the counter, click the "INCREMENT" button. 
+                    <h6>
+                        Saved Bugs will be shown under "PREVIOUS ENTRIES".
+                    </h6>
+                </span>
+            </div>
+        <!-- <div class="container"> -->
+          <!-- <label for="increment-input">Increment by:</label>
+          <input type="number" id="increment-input"> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+  <div>
+      <div class="footer">
+          <!-- footer content goes here -->
+      </div>
+  </div>
+</body>
+</html>
